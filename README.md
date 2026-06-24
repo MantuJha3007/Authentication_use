@@ -35,6 +35,7 @@ It supports registration, login, email verification, session refresh, logout, an
    - Go to the Credentials section.
    - Click on Create Credentials and chosse OAuth client ID.
    - set the application type to Web Application.
+   - leave the Authorized JavaScript Origins empty
    - Under Authorized redirect URIs, add http://localhost and https://developers.google.com/oauthplayground (or your application's URL).
    - Now You will get ##client ID## and ## Client Secret ## (copy that and paste in the formate given below. and ( don't close that tab till the next steps because ones the tab is closed you will not be able to get that)
      ### Required Environment Variables
